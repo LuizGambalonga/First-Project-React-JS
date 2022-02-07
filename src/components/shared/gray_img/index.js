@@ -1,8 +1,12 @@
 import React from "react";
-
-const GrayImg = () =>{
+import './style.css';
+const GrayImg = (props) =>{
     return (
-        <img src="https://picsum.photos/id/237/200/300"></img>
+        <div className="img">
+            <img src={props.img_url}></img>
+        </div>
+        
+     
     );
 }
 export default GrayImg;
