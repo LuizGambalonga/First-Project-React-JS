@@ -10,7 +10,7 @@ const Planets = () =>{
         <Fragment>
              <Planet 
                 nome="Mercurio"
-                descricaoLink ="Clique aqui para visualizar informações sobre o planteta"
+                descricaoLink ="Clique aqui para visualizar informações sobre o plantetas"
                 link ="https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)"
                 img_url= "https://www.infoescola.com/wp-content/uploads/2008/04/planeta-merc%C3%BArio_60584068.jpg"
                 MostreMensagem = {MostreMensagem}
